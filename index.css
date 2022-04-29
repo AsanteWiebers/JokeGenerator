@@ -1,0 +1,57 @@
+body, 
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif; ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #C4DDFF;
+}
+
+span {
+    text-decoration: underline;
+}
+
+button {
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    padding: 1em 5em;
+    text-align: center;
+}
+
+#joke-button {
+    background-color: #125B50;
+    color: #FFF;
+}
+
+:hover#joke-button {
+    background: #069A8E;
+    transition: 800ms;
+}
+
+:hover#punchline-button {
+    background: #B22727;
+    transition: 800ms;
+}
+
+#punchline-button {
+    background-color: #F55353;
+    color: white;
+}
+
+.paragraph-punchline {
+    visibility: hidden;
+}
+
+
+
+
